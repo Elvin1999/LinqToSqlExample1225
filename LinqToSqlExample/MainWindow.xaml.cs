@@ -156,7 +156,6 @@ namespace LinqToSqlExample
             //             select b;
 
             //mydataGrid.ItemsSource = result;
-
         }
     }
 }

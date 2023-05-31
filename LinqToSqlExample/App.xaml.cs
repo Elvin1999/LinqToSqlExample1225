@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LinqToSqlExample.Model;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -13,5 +14,6 @@ namespace LinqToSqlExample
     /// </summary>
     public partial class App : Application
     {
+        public static DataClasses1DataContext Context=new DataClasses1DataContext();
     }
 }
